@@ -4,3 +4,5 @@ INSERT INTO books (title, year, series_id) VALUES ("Shadowlands", 1999, 1), ("Tu
 INSERT INTO books (title, year, series_id) VALUES ("Begin-inings", 2007, 2), ("Middling-ings", 2008, 2), ("Ending-ings", 2009, 2);
 
 INSERT INTO subgenres (name) VALUES ("scienci fiction"), ("fantasy");
+
+INSERT INTO authors (name) VALUES ("Clawton Drumbeast"), ("Edwina the Oracle");
