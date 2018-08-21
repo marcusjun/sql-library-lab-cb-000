@@ -6,3 +6,7 @@ INSERT INTO books (title, year, series_id) VALUES ("Begin-inings", 2007, 2), ("M
 INSERT INTO subgenres (name) VALUES ("scienci fiction"), ("fantasy");
 
 INSERT INTO authors (name) VALUES ("Clawton Drumbeast"), ("Edwina the Oracle");
+
+INSERT INTO characters (name, species, motto, series_id, author_id) VALUES ("Support Feedback", "warrior", "I'm not here to make friends.", 1, 1), ("General Case", "magician", "Pick a card, any card.", 1, 1), ("In Advance", "healer", "Who needs a bandage?", 1, 1), ("Or Priority", "archer", "Bow and arrow.", 1, 1),
+
+
