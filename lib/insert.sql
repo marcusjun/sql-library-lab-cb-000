@@ -25,8 +25,10 @@ INSERT INTO characters (name, species, motto, series_id, author_id) VALUES
 ("Sense Of", "tactician", "Strategy wins battles", 2, 2);
 
 INSERT INTO character_books (book_id, character_id) VALUES
-(1,1), (1,2),
+(1,1), (1,2), (1,3), (1,4),
 (2,1), (2,2),
 (3,1), (3,2),
 
-(1,3), (1,4),
+(4,5), (4,6),
+(5,5), (5,6),
+(6,5), (6,6), (6,7), (6,8);
