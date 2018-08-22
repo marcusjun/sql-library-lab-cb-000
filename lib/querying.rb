@@ -22,7 +22,7 @@ def select_series_title_with_most_human_characters
   FROM series
   INNER JOIN characters
   ON series.id = characters.series_id
-  GROUP by series.title
+  GROUP by series.title LIMIT 1
   ;"
 end
 
